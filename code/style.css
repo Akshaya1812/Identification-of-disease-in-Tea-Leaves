@@ -1,0 +1,80 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav{
+    background-color: green;
+    align-content: center;
+    display: block;
+    width: 100%;   
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.nav ul li{
+    padding: auto;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+    justify-self: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, white, yellow, green);
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+}
+form {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+
+  
